@@ -1,0 +1,6 @@
+select symbol, sum(price)
+from StockTickEvent.win:time(30 sec)
+group by symbol
+having sum(price) > 1000
+order by symbol desc
+
