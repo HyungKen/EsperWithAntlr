@@ -5,7 +5,7 @@ It is a project to optimize EPL statements of Esper engine using antlr.
 ## dependencies
 * Java
 * Esper
-* Antlr
+* Antlr4
 
 ## get started
 ```
